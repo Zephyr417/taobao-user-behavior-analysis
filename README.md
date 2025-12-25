@@ -33,6 +33,18 @@ The dataset is not included in this repository due to size constraints.
 
 1. Users are more active from 20:00 to 23:00. Friday has the highest PV and UV among the week. PV and UV are high at 0:00 on Dec 12. Most people just click the page without other behaviors:   
 
+<table>
+  <tr>
+    <td><img src="Images/hourly_pv_uv.png" alt="User hourly pv, uv distribution" width="300"/></td>
+    <td><img src="Images/weekday_pv_uv.png" alt="User weekday pv, uv distribution" width="300"/></td>
+  </tr>
+  <tr>
+    <td><img src="Images/hourly_1212_pv_uv.png" alt="User hourly pv, uv distribution" width="300"/></td>
+    <td><img src="Images/hourly_user_behavior.png" alt="User weekday pv, uv distribution" width="300"/></td>
+  </tr>
+</table>
+
+
 **Concentrate promotions during peak hours (20:00–23:00); Prioritize Fridays for major campaigns; Improve click-to-action conversion like clearer “Add to Cart” buttons, limited-time offers, or personalized recommendations.**  
 
 2. Conversion Rate (Click → Fav+Cart): 5.07%. Conversion Rate (Fav+Cart → Purchase): 20.51%. Overall Conversion Rate (Click → Purchase): 1.04%.
