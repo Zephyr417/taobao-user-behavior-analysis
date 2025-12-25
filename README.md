@@ -33,6 +33,8 @@ The dataset is not included in this repository due to size constraints.
 
 1. Users are more active from 20:00 to 23:00. Friday has the highest PV and UV among the week. PV and UV are high at 0:00 on Dec 12. Most people just click the page without other behaviors:   
 
+<div align="center">
+
 <table>
   <tr>
     <td><img src="Images/hourly_pv_uv.png" alt="User hourly pv, uv distribution" width="300"/></td>
@@ -51,8 +53,23 @@ The dataset is not included in this repository due to size constraints.
 Customer are actually likely to purchase if they favorite or add it to cart (20%), the problem is how to recommend the right product to them (5%). The 12.12 campaign effectively doubles the conversion rate from fav/cart to purchase, resulting in a doubled overall conversion rate.
 Most items overall conversion rate and interest rate are below 10%. Over 47% items haven't been purchased and over 31% items were not interested:  
 
+
+<img src="Images/conversion_rate.png" alt="Histogram of conversion rate" width="600"/>
+
+
 **Improve product recommendations to increase click → Fav/cart rates; Use targeted reminders and incentives for users who favorited or added items to cart; Analyzing the factors behind the highest ranked items to introduce more similar, high-potential products. And reconsider low-interest, no-purchase items; Replicate and optimize successful strategies from the 12.12 campaign for future sales.**  
 
 3. The majority of customers have a low purchase frequency, with the highest number of users clustered near zero purchases. More than 87% of all the purchased users would purchase again. Over 95% repurchase occur within the first 15 days, and 90% happen within just 10 days.  
+
+<div align="center">
+
+<table>
+  <tr>
+    <td><img src="Images/purchase_frequency.png" alt="Customer purchase frequency" width="350"/></td>
+    <td><img src="Images/CDF_purchase_interval.png" alt="CDF of mean purchase intervals" width="350"/></td>
+  </tr>
+</table>
+
+</div>
 
 **Focus marketing efforts on encouraging first-time buyers to make a second purchase within the first 15 days; Implement timely post-purchase engagement like reminders, offers within the critical 10-15 day window; Develop loyalty programs targeting repeat customers to increase purchase frequency; Analyze barriers preventing low-frequency buyers from repurchasing and address them.**
