@@ -45,7 +45,7 @@ The dataset is not included in this repository due to size constraints.
     <td><img src="Images/hourly_user_behavior.png" alt="User weekday pv, uv distribution" width="300"/></td>
   </tr>
 </table>
-
+</div>
 
 **Concentrate promotions during peak hours (20:00–23:00); Prioritize Fridays for major campaigns; Improve click-to-action conversion like clearer “Add to Cart” buttons, limited-time offers, or personalized recommendations.**  
 
@@ -53,9 +53,9 @@ The dataset is not included in this repository due to size constraints.
 Customer are actually likely to purchase if they favorite or add it to cart (20%), the problem is how to recommend the right product to them (5%). The 12.12 campaign effectively doubles the conversion rate from fav/cart to purchase, resulting in a doubled overall conversion rate.
 Most items overall conversion rate and interest rate are below 10%. Over 47% items haven't been purchased and over 31% items were not interested:  
 
-
+<div align="center">
 <img src="Images/conversion_rate.png" alt="Histogram of conversion rate" width="600"/>
-
+</div>
 
 **Improve product recommendations to increase click → Fav/cart rates; Use targeted reminders and incentives for users who favorited or added items to cart; Analyzing the factors behind the highest ranked items to introduce more similar, high-potential products. And reconsider low-interest, no-purchase items; Replicate and optimize successful strategies from the 12.12 campaign for future sales.**  
 
